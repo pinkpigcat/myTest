@@ -12,8 +12,10 @@ import javax.servlet.http.HttpServletResponse;
 import action.Action;
 import vo.ActionForward;
 
-@WebServlet("*.adm")
-public class AdminController extends HttpServlet {
+
+
+@WebServlet("*.book")
+public class BoardController extends HttpServlet {
 
 	
 	protected void doProcess(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
